@@ -1,2 +1,0 @@
-'*.{js,jsx,ts,tsx}': eslint
-'*.{json,yml,yaml,toml}': eslint --fix
