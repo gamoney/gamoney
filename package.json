@@ -1,0 +1,48 @@
+{
+  "name": "preact-typescript-template",
+  "version": "1.0.0",
+  "description": "Template for personal Preact projects using TypeScript.",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuxsnct/preact-typescript-template.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Hideki Tanaka",
+    "email": "work@tuxsnct.com",
+    "url": "https://www.tuxsnct.com/"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "build": "vite build",
+    "start": "vite",
+    "lint": "eslint './**/*.{js,jsx,ts,tsx,json,yaml,yml,toml}'",
+    "lint:fix": "npm run lint --fix",
+    "type": "tsc --noEmit",
+    "prepare": "husky install",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "preact": "^10.6.2",
+    "react": "npm:@preact/compat@^17.0.3",
+    "react-dom": "npm:@preact/compat@^17.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.39",
+    "@types/react-dom": "17.0.11",
+    "@vitejs/plugin-react": "1.2.0",
+    "chokidar-cli": "3.0.0",
+    "cross-env": "7.0.3",
+    "eslint": "8.9.0",
+    "eslint-config-tuxsnct": "latest",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.4",
+    "mkdirp": "1.0.4",
+    "npm-run-all": "4.1.5",
+    "rimraf": "3.0.2",
+    "typescript": "4.5.5",
+    "vite": "2.8.4",
+    "wait-on": "6.0.1"
+  }
+}
