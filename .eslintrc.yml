@@ -8,5 +8,3 @@ extends:
   - tuxsnct/typescript
 parserOptions:
   project: ./tsconfig.json
-rules:
-  react/react-in-jsx-scope: 0
